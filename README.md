@@ -44,4 +44,15 @@ The get hw command should allow retrieval of "Hello World" string that is stored
 The keys command will show you all the currnet keys in the Redis datastore instance.
 
 
-Now that Python, Python redis package
+Now that Python, Python redis package can open  in DIAdem the 
+cRedisPythonR3.VBS file.
+
+If have installed python to c:\Python\python365 and have Redis installed on same machine, then the the VBS file can be executed directly, and a stress test should run and pass.  
+
+If the python install directory is different than c:\python\python365  then the code will require modifications on line 479 
+sPythonPath_         = "C:\python\python365\"  
+
+Line 494 allows changing the IP address where Redis is installed.
+python_redis_ip="127.0.0.1"
+
+Note:  The feature for DIAdem to call python is an advance feature, and has been tested with Python 3.6 and 3.7. Other version have not been tested.  Strongly suggest that Python version 3.6 or 3.7 be used for this operation.
