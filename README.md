@@ -3,7 +3,7 @@ Interacting with Redis from DIAdem
 
 
 Just why did I make this: 
-DIAdem is very good at processing large data files from NI equipment, and to also benfit from My Datafinder or DataFinder Server to search through a large group of files.   
+DIAdem is very good at processing large data files from NI equipment, and to also benefit from My Datafinder or DataFinder Server to search through a large group of files for file/group/channel properties.   
 
 What DIAdem has problems doing is to communicate to other applications like R, Julia, Python. DIAdem also allows using up to 5 cores of a Machine, by the use of Worker objects.  In my use of Worker objects, I have found that communicating to workers or between workers was quite challenging and lacking ease of use.  
 
